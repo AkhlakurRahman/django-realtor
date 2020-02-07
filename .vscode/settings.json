@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/home/geralt/.local/share/virtualenvs/django-realtor-6RE-iX7M/bin/python"
+  "python.pythonPath": "/home/geralt/.local/share/virtualenvs/django-realtor-6RE-iX7M/bin/python",
+  "editor.formatOnSave": false
 }
