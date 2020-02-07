@@ -1,4 +1,4 @@
 {
   "python.pythonPath": "/home/geralt/.local/share/virtualenvs/django-realtor-6RE-iX7M/bin/python",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": true
 }
