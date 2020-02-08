@@ -1,0 +1,28 @@
+{% extends 'admin/base.html' %}
+
+<!-- Loading Static Files -->
+
+{% load static %}
+
+<!-- Edit Admin Nav -->
+
+{% block branding %}
+<h1 id="head">
+  <img
+    src="{% static 'img/logo.png' %}"
+    alt="Realtor"
+    height="50"
+    width="80"
+    class="brand_img"
+  />
+  Realtor Admin
+</h1>
+{% endblock %}
+
+<!-- Load Custom CSS -->
+
+{% block extrastyle %}
+
+<link rel="stylesheet" href="{% static 'css/admin.css' %}" />
+
+{% endblock %}
