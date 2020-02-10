@@ -1,4 +1,8 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
+<!-- Page title -->
+{% block title %} | Dashboard of {{ user.username}}{% endblock %}
+<!-- Content -->
+{% block content %}
 
 <section id="showcase-inner" class="py-5 text-white">
   <div class="container">
